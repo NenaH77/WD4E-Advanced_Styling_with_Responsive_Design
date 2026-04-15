@@ -61,3 +61,12 @@ nav ul li{
   width: 100%;
 }
 
+@media screen and (min-width: 772px){
+  body{
+    background-color: red;
+    .grid{
+      grid-template-columns: 45% 45%;
+    }
+  } 
+}
+
